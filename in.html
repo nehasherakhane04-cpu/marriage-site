@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///C:/Users/HP/Desktop/sql/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Happy Marriage Life</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: Arial;
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        .lines {
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .heart {
+            font-size: 50px;
+            animation: blink 1.2s infinite;
+            margin-top: 15px;
+        }
+
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0.5;}
+            100% {opacity: 1;}
+        }
+
+        /* petals */
+        .petal {
+            position: absolute;
+            top: -10px;
+            font-size: 20px;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>💖 Happy Marriage Life 💖</h1>
+    <h2> Amith ❤️ Sanjana </h2>
+    <p>Stay Khush 😊 Always Together Forever 💍</p>
+
+    <!-- Romantic Lines -->
+    <div class="lines">
+        💕 Two hearts, one soul 💕<br>
+        💫 Made for each other 💫<br>
+        🌸 Forever begins today 🌸<br>
+        💖 Love, trust &amp; happiness always 💖
+    </div>
+
+    <div class="heart">❤️ ❤️ ❤️</div>
+
+    <!-- Falling petals -->
+    <script>
+        setInterval(() => {
+            let p = document.createElement("div");
+            p.className = "petal";
+            p.innerHTML = "🌹";
+
+            p.style.left = Math.random() * window.innerWidth + "px";
+            p.style.animationDuration = (3 + Math.random() * 3) + "s";
+
+            document.body.appendChild(p);
+
+            setTimeout(() => p.remove(), 6000);
+        }, 400);
+    </script>
+
+
+<div class="petal" style="left: 1402.23px; animation-duration: 3.33644s;">🌹</div><div class="petal" style="left: 459.698px; animation-duration: 4.6529s;">🌹</div><div class="petal" style="left: 86.7972px; animation-duration: 5.05714s;">🌹</div><div class="petal" style="left: 1488.93px; animation-duration: 3.84313s;">🌹</div><div class="petal" style="left: 5.89275px; animation-duration: 3.72313s;">🌹</div><div class="petal" style="left: 728.032px; animation-duration: 4.11389s;">🌹</div><div class="petal" style="left: 551.252px; animation-duration: 5.83489s;">🌹</div><div class="petal" style="left: 1523.66px; animation-duration: 3.23317s;">🌹</div><div class="petal" style="left: 55.1552px; animation-duration: 3.71253s;">🌹</div><div class="petal" style="left: 634.684px; animation-duration: 3.02238s;">🌹</div><div class="petal" style="left: 724.188px; animation-duration: 3.9947s;">🌹</div><div class="petal" style="left: 568.936px; animation-duration: 3.55604s;">🌹</div><div class="petal" style="left: 589.639px; animation-duration: 5.47314s;">🌹</div><div class="petal" style="left: 382.381px; animation-duration: 5.38557s;">🌹</div><div class="petal" style="left: 271.309px; animation-duration: 4.46795s;">🌹</div></body></html>
